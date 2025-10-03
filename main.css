@@ -1,6 +1,6 @@
 .samples-ui-wrapper {
     --primary: #388ee9;
-    --font-size: 14px;
+    --font-size: 12px;
 
     display: flex;
     flex-direction: column;
@@ -70,10 +70,10 @@
 
 .samples-ui-wrapper .badge-link {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     background-color: var(--bg-badge);
     color: var(--text);
-    gap: 4px;
+    gap: 6px;
     padding: 4px 8px;
     border-radius: 8px;
     border: 1px solid var(--border-badge);
@@ -194,7 +194,7 @@
     width: fit-content;
     display: flex;
     gap: 4px;
-    align-items: center;
+    align-items: baseline;
     text-decoration: none;
     border-bottom: 1px dotted var(--toast-link);
     color: var(--toast-link);
